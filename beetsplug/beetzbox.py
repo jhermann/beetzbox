@@ -19,7 +19,7 @@ class SqueezeBox(BeetsPlugin):
     def commands(self):
         result = []
 
-        command = ui.Subcommand('sq-play', help='add query results to playlist')
+        command = ui.Subcommand('sqplay', help='add query results to SqueezeBox playlist', aliases=['sp'])
         command.func = self._play
         command.parser.add_album_option()
         command.parser.add_option('-i', '--insert', action='store_true', default=False,
