@@ -29,7 +29,8 @@ project = dict(
 
     packages=['beetsplug'],
     namespace_packages=['beetsplug'],
-    install_requires=['beets>=1.4.3']
+    install_requires=['beets>=1.4.3'],
+    platforms=['ALL'],
 
     # Added by the code below:
     #   version author author_email (from script module)
