@@ -1,0 +1,5 @@
+#
+# Install requirements
+#
+
+beets==1.4.6

@@ -1,0 +1,11 @@
+#######################################################################
+# Beets configuration
+#
+# https://beets.readthedocs.io/en/v1.4.6/reference/config.html
+
+directory: ~/Music/beets
+library: ~/.local/share/beets/library.db
+art_filename: folder
+
+plugins:
+  - beetzbox
